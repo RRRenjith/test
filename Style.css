@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('http://order.walkaroo.in/JMJSAP_Walkaroo/Image/Bg.jpg');
+    /* Adjust background properties as needed */
+    background-size: cover;
+    /* Other background properties like repeat, position, etc. */
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.Head{font-weight: bold;font-family:sans-serif;font-size: xx-large;margin-left: 10px;}
+#Box {display:block;position: fixed;
+
+}

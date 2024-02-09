@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J_Qury Testing</title>
+    
+</head>
+
+<link rel="stylesheet" href="Style.css">
+<link rel="icon" href="Walk.jpg">
+
+<body>
+    <div style="Width:100%;Height:100px;Background:Blue;border-radius:10px;color:White">
+        <button id="Btn" style="margin: 10Px;">HOME</button><br><br>
+        <label class="Head">Walkaroo Daily Report</label>
+
+    </div>
+
+
+
+<div style="width: 250px;height:700px;background:rgb(3, 3, 51);padding: 10px;border-radius:10px") id="Box">
+
+    <button style="padding: 10px;margin:10px;font-size:bold;width:90%">Daily Sales Report</button><br><br>
+    <button style="padding: 10px;margin:10px;font-size:small">WALKAROO_FG STOCK ANALYSIS</button><br><br>
+    <button style="padding: 10px;margin:10px;font-size:bold;width:90%">Outsource FG Stock Report </button>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+
+<script>
+  $("#Box").hide()
+$(document).ready(function(){
+    $("#Btn").click(function(){
+        $("#Box").fadeToggle(2500)
+        
+    })
+
+    $("#Btn").mouseenter(function(){
+        $(this).css({"backgroud":"red"})
+    })
+
+ 
+    })
+
+
+
+
+</script>
+
+    
+</body>
+</html>
